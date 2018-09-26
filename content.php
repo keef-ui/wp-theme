@@ -24,7 +24,7 @@
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
-		<?php echo get_the_category_list();?>
+		
 	</header><!-- .entry-header -->
 
 	<div class="article-description">
