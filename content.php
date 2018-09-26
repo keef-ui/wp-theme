@@ -10,7 +10,8 @@
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+<article id="post-<?php the_ID(); ?>" class="<?php echo get_post_meta($post->ID, "css-class", true)?>" >
 	<?php
 		// Post thumbnail.
 		twentyfifteen_post_thumbnail();
@@ -24,7 +25,7 @@
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
-		
+		<?php echo get_the_category_list();?>
 	</header><!-- .entry-header -->
 
 	<div class="article-description">
