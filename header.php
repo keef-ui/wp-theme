@@ -15,17 +15,17 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-	<!--[if lt IE 9]>
-	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
-	<![endif]-->
+    <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/base.css">
+    <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/grids.css">
+
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
+<div id="layout" class="pure-g">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
-	<div id="sidebar" class="sidebar">
+	<div class="sidebar pure-u-1 pure-u-md-1-4">
 		<header id="masthead" class="site-header" role="banner">
 			<div class="site-branding">
 				<?php
@@ -49,4 +49,4 @@
 		<?php get_sidebar(); ?>
 	</div><!-- .sidebar -->
 
-	<div id="content" class="site-content">
+	<div class="content pure-u-1 pure-u-md-3-4">
