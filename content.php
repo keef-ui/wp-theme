@@ -16,7 +16,7 @@
 		twentyfifteen_post_thumbnail();
 	?>
 
-	<header class="entry-header">
+	<header class="article-header">
 		<?php
 			if ( is_single() ) :
 				the_title( '<h1 class="entry-title">', '</h1>' );
@@ -24,9 +24,10 @@
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
+		<?php echo get_the_category_list();?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="article-description">
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
@@ -52,9 +53,11 @@
 		endif;
 	?>
 
-	<footer class="entry-footer">
+<!-- 	<footer class="entry-footer">
 		<?php twentyfifteen_entry_meta(); ?>
 		<?php edit_post_link( __( 'Edit', 'twentyfifteen' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
+	</footer> -->
+
+	<!-- .entry-footer -->
 
 </article><!-- #post-## -->
