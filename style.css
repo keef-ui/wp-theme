@@ -2,7 +2,7 @@
 
 body , .pure-g [class *= "pure-u"] {
     color: #444;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.2;
     word-wrap: break-word;
 }
@@ -97,6 +97,31 @@ tagline {
     text-decoration: none;
 }
 
+/* Categories   Edit category_template in wpinludes*/
+ul.categories {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.categories li {
+    float: left;
+}
+
+.categories li a , .categories span {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.categories span {
+	float:left;
+	display:inline-block;
+	background-color: transparent;
+
+}
+
 .content-subhead {
     text-transform: uppercase;
     color: #aaa;
@@ -119,7 +144,7 @@ tagline {
     margin: 0 0.5rem;
 }
 .article-title {
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #222;
     margin-bottom: 0.2em;
 }
