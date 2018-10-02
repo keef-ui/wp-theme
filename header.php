@@ -17,7 +17,7 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/base.css">
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/grids.css">
-    
+
 
 
 	<?php wp_head(); ?>
@@ -29,7 +29,7 @@
 
 	<div class="sidebar pure-u-1 pure-u-md-1-4">
 		<header id="masthead" class="site-header" role="banner">
-			<div class="site-branding">
+		
 				<?php
 					twentyfifteen_the_custom_logo();
 
@@ -41,11 +41,12 @@
 
 					$description = get_bloginfo( 'description', 'display' );
 					if ( $description || is_customize_preview() ) : ?>
-						<p class="site-description"><?php echo $description; ?></p>
+						<p class="site-description"><?php echo $description; ?><a href="mailto:keerthi@ui-design-coder.com" class="contact-me"> Contact me via email</a></p>
+						
 					<?php endif;
 				?>
-				<button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
-			</div><!-- .site-branding -->
+				<!-- <button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button> -->
+			
 		</header><!-- .site-header -->
 
 		<?php get_sidebar(); ?>

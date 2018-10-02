@@ -25,9 +25,68 @@ h1,h2,h3,h4 {
      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
 
+h1 a,h2 a,h3 a,h4 a,
+h1 a:focus,h2 a:focus,h3 a:focus,h4 a:focus,
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover { 
+    color:#111111;
+    text-decoration: none;
+}
+
+
+/* Sidebar and Mneu */
+.sidebar h1 {font-size: 1.4em;}
+
+.sidebar header  {font-size: 0.8em;}
+.sidebar p {line-height: 2em}
+
 h3 {
     font-weight: 100;
 }
+a.screen-reader-text{
+    position: absolute;
+    top: -1000em
+   
+    
+}
+  
+
+  .nav-menu {
+
+    list-style-type: none;
+    margin: 0 2em;
+    padding: 0;
+    overflow: hidden;
+    text-align:right;
+  }
+  .secondary {
+    font-size: 0.8em;
+  }
+.nav-menu-heading {
+        font-size: 1.4em;
+         text-align:right;
+         margin: 0.67em 1.5em;
+         border-bottom: 1px #e6e1e1 solid;
+}
+
+a.screen-reader-text:focus {
+    left: 6px;
+    top: 7px;
+    height: auto;
+    width: auto;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 23px 14px;
+    background: #f1f1f1;
+    color: #0073aa;
+    z-index: 100000;
+    line-height: normal;
+    text-decoration: none;
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+    letter-spacing: 0.1em;
+}
+
+   
 
 /* LAYOUT CSS */
 
@@ -39,6 +98,8 @@ h3 {
 .articles > * {
   padding: 0 1.6em;
 }
+
+
 
 .pure-img-responsive {
     max-width: 100%;
@@ -103,15 +164,17 @@ ul.categories {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-size: 0.7em;
 }
 
 .categories li {
     float: left;
+    margin-right: 0.2em;
 }
 
 .categories li a , .categories span {
     display: block;
-    padding: 8px;
+    padding: 0.3em;
     background-color: #dddddd;
 }
 
@@ -121,6 +184,14 @@ ul.categories {
 	background-color: transparent;
 
 }
+
+.categories .react.js{background-color: #dddddd;},
+.categories .react.js{background-color: #dddddd;},
+.categories .react.js{background-color: #dddddd;},
+.categories .react.js{background-color: #dddddd;},
+.categories .react.js{background-color: #dddddd;},
+.categories .react.js{background-color: #dddddd;},
+.categories .react.js{background-color: #dddddd;},
 
 .content-subhead {
     text-transform: uppercase;
@@ -212,7 +283,7 @@ ul.categories {
         margin-left: 25%;
     }
 
-    .header {
+    .header,.sidebar header {
         margin: 80% 2em 0;
         text-align: right;
     }

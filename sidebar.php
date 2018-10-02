@@ -9,17 +9,18 @@
 
 if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar( 'sidebar-1' )  ) : ?>
 	<div id="secondary" class="secondary">
+		<h2 class='nav-menu-heading' >Articles</h2>
 
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<?php
+			<!-- <nav id="site-navigation" class="main-navigation" role="navigation">
+ -->				<?php
 					// Primary navigation menu.
 					wp_nav_menu( array(
 						'menu_class'     => 'nav-menu',
 						'theme_location' => 'primary',
 					) );
 				?>
-			</nav><!-- .main-navigation -->
+			<!-- </nav> -->
 		<?php endif; ?>
 
 		<?php if ( has_nav_menu( 'social' ) ) : ?>
