@@ -29,6 +29,7 @@
 
 	<div class="sidebar pure-u-1 pure-u-md-1-4">
 		<header id="masthead" class="site-header" role="banner">
+
 		
 				<?php
 					twentyfifteen_the_custom_logo();
@@ -48,7 +49,13 @@
 				<!-- <button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button> -->
 			
 		</header><!-- .site-header -->
-
+      <input type="checkbox" id="toggle-menu" aria-hidden="true" />
+        <label for="toggle-menu" class="hamburger">
+        	
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+   </label>
 		<?php get_sidebar(); ?>
 	</div><!-- .sidebar -->
 
