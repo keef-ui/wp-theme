@@ -34,6 +34,11 @@
 </div><!-- .site -->
 
 <?php wp_footer(); ?>
-
+        <script src="/wordpress/wp-content/themes/twentyfifteen/js/manifest.37a2ecbb1d1b7e6c9ada.js" type="text/javascript">
+    </script>
+    <script src="/wordpress/wp-content/themes/twentyfifteen/js/linechart-vue.js" type="text/javascript">
+    </script>
+    <script src="/wordpress/wp-content/themes/twentyfifteen/js/app.d5ba9fe98f9bc1cb104c.js" type="text/javascript">
+    </script>
 </body>
 </html>

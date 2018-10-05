@@ -17,6 +17,8 @@
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/base.css">
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/grids.css">
+    <link href="/wordpress/wp-content/themes/twentyfifteen/css/vuelinechart.css" rel="stylesheet">
+
 
 
 
