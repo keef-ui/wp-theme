@@ -15,12 +15,9 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-    <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/base.css">
-    <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/grids.css">
-    <link href="/wordpress/wp-content/themes/twentyfifteen/css/vuelinechart.css" rel="stylesheet">
-     <link href="/wordpress/wp-content/themes/twentyfifteen/css/redox-linechart.css" rel="stylesheet">
-   
-    
+    <link rel="stylesheet" href="wp-content/themes/twentyfifteen/css/base.css">
+    <link rel="stylesheet" href="wp-content/themes/twentyfifteen/css/grids.css">
+    <link href="/wp-content/themes/twentyfifteen/css/vuelinechart.css" rel="stylesheet">
 
 
 

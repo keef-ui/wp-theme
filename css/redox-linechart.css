@@ -1,6 +1,12 @@
 /*****  css in public folder   ****/
 
-
+#root-redux-linechart  {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 #root-redux-linechart svg {
     background-color: #000;
 }
