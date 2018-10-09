@@ -62,11 +62,13 @@
     font-size:3vw;
     
 }
-.redoxLineChart:after {content:'[Click on a region]'; 
+.redoxLineChart:after {content:'[Click on a region and hover over the dots]'; 
     background-color: black; 
     display:block;margin-top:1em; 
     font-size: 3vw;
     color: lightgray;
+        grid-column: 1/4;
+    grid-row: 4;
 }
 @media screen and (min-width: 48em) { 
 
@@ -135,7 +137,7 @@ fill-opacity: 0.6;
 }
 
 
-.redoxLineChart h3 span {color:orange}
+.redoxLineChart h3 span {color:orange;  text-transform: capitalize;}
 .redoxLineChart #england,.redoxLineChart #wales,.redoxLineChart #scotland,.redoxLineChart #ireland,.redoxLineChart #northernIreland{
   fill:orange;
   stroke:orange;
