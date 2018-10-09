@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/grids.css">
     <link href="/wordpress/wp-content/themes/twentyfifteen/css/vuelinechart.css" rel="stylesheet">
      <link href="/wordpress/wp-content/themes/twentyfifteen/css/redox-linechart.css" rel="stylesheet">
+      <link href="/wordpress/wp-content/themes/twentyfifteen/css/dial-chart.css" rel="stylesheet">
    
     
 

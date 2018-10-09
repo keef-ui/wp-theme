@@ -41,6 +41,8 @@
     <script src="/wordpress/wp-content/themes/twentyfifteen/js/app.d5ba9fe98f9bc1cb104c.js" type="text/javascript">
     </script>
      <script src="/wordpress/wp-content/themes/twentyfifteen/js/reduxlinechart.min.js" type="text/javascript">
-      </script>
+     </script>
+          <script src="/wordpress/wp-content/themes/twentyfifteen/js/dial-chart.min.js" type="text/javascript">
+     </script>
 </body>
 </html>

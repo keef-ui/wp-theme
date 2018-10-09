@@ -18,11 +18,18 @@
 	?>
 
 	<header class="article-header">
-		<?php
+<!-- 		<?php
 			if ( is_single() ) :
 				the_title( '<h1 class="article-title">', '</h1>' );
 			else :
 				the_title( sprintf( '<h2 class="article-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+			endif;
+		?>
+			 -->	<?php
+			if ( is_single() ) :
+				the_title( '<h1 class="article-title">', '</h1>' );
+			else :
+				the_title( sprintf( '<h2 class="article-title">', esc_url( get_permalink() ) ), '</h2>' );
 			endif;
 		?>
 		<?php echo get_the_category_list();?>
