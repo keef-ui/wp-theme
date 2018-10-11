@@ -172,12 +172,16 @@ tagline {
 }
 
 /* Categories   Edit category_template in wpinludes*/
+
+/*temperarily hiden */
+
 ul.categories {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     font-size: 0.7em;
+    display: none;
 }
 
 .categories li {
@@ -329,14 +333,14 @@ input#toggle-menu ~ .secondary{
 
 
 .hamburger .line {
-  position: absolute;
-  display: block;
-  background: #3d3d3d;
-  width: 18px;
-  height: .15rem;
-  border-radius: .2rem;
-  left: 0;
-  transition: all .6s cubic-bezier(.5, .1, 0, 1.2);
+    position: absolute;
+    display: block;
+    background: #3d3d3d;
+    width: 1.5em;
+    height: .20rem;
+    border-radius: .2rem;
+    left: 0;
+    transition: all .6s cubic-bezier(.5, .1, 0, 1.2);
 }
 
 .hamburger .line-1 {
@@ -354,15 +358,16 @@ input#toggle-menu ~ .secondary{
 }
 
 .hamburger {
-    display: block;
+      display: block;
     position: absolute;
-    top: 3.5em;
-    right: 0px;
-    height: 27px;
-    width: 27px;
+    top: 0.5em;
+    right: 0.7em;
+    height: 1.5em;
+    width: 1.5em;
     cursor: pointer;
     transition: all 1s cubic-bezier(.19, 1, .22, 1);
 }
+.hamburger:focus { outline: none;}
 
 input#toggle-menu[type=checkbox] {
     display: none;
@@ -402,7 +407,7 @@ input#toggle-menu[type=checkbox]:checked ~ label .line-3 {
   }
 
   .sidebar.pure-u-1 {
-        padding: 2em 1em 0;
+        padding: 0.5em 1em 0;
   } 
     img.custom-logo {
         width:2em;
@@ -413,6 +418,7 @@ input#toggle-menu[type=checkbox]:checked ~ label .line-3 {
         line-height: 2em;
   } 
 .site-header h1, .site-header a {display:inline-block;padding-right:0.5em;}
+.site-header p {margin-top: 0em;}
   @media (min-width: 48em) { 
         .site-header h1, .site-header a {
         display:block;
@@ -434,7 +440,11 @@ input#toggle-menu[type=checkbox]:checked ~ label .line-3 {
              .nav-menu li{
                 line-height: 2em;
           } 
-
+            .site-header p {margin-top: 1em;}
   }
 
   }
+
+
+/* Displaye these in the future  */
+
