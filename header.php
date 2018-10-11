@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/base.css">
     <link rel="stylesheet" href="/wordpress/wp-content/themes/twentyfifteen/css/grids.css">
     <link href="/wordpress/wp-content/themes/twentyfifteen/css/vuelinechart.css" rel="stylesheet">
-     <link href="/wordpress/wp-content/themes/twentyfifteen/css/redox-linechart.css" rel="stylesheet">
-      <link href="/wordpress/wp-content/themes/twentyfifteen/css/dial-chart.css" rel="stylesheet">
+    <link href="/wordpress/wp-content/themes/twentyfifteen/css/redox-linechart.css" rel="stylesheet">
+    <link href="/wordpress/wp-content/themes/twentyfifteen/css/dial-chart.css" rel="stylesheet">
    
     
 
@@ -30,6 +30,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<input type="checkbox" id="lessText" aria-hidden="true">
 <div id="layout" class="pure-g">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 

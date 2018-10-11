@@ -29,6 +29,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<input type="checkbox" id="lessText" aria-hidden="true">
 <div id="layout" class="pure-g">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 

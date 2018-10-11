@@ -43,6 +43,11 @@ if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar(
 			</div><!-- .widget-area -->
 		<?php endif; ?>
 
+		<div class='page-options'>
+			<h2 class='nav-menu-heading' >Page Options</h2>
+			  <label for='lessText' class='lessText'>Show me less text</label> 
+		</div>	
+
 	</div><!-- .secondary -->
 
 <?php endif; ?>
