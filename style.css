@@ -295,7 +295,7 @@ ul.categories {
     background: none;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 78em) {
     .content {
         padding: 2em 3em 0;
         margin-left: 25%;
@@ -390,7 +390,7 @@ input#toggle-menu[type=checkbox]:checked ~ label .line-3 {
   transform: translateX(-8px) rotate(45deg) translateY(-8px);
 }
 
-  @media (min-width: 48em) {
+  @media (min-width: 78em) {
      .secondary {
         font-size: 0.8em;
             max-height: none;
@@ -420,7 +420,7 @@ input#toggle-menu[type=checkbox]:checked ~ label .line-3 {
   } 
 .site-header h1, .site-header a {display:inline-block;padding-right:0.5em;}
 .site-header p {margin-top: 0em;}
-  @media (min-width: 48em) { 
+  @media (min-width: 78em) { 
         .site-header h1, .site-header a {
         display:block;
         padding-right: 0em;  
