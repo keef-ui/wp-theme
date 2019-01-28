@@ -101,6 +101,7 @@ a.screen-reader-text:focus {
 }
 
    
+.article-header .post-categories {display:none;}
 
 /* LAYOUT CSS */
 
