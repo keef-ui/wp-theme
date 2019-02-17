@@ -1,6 +1,6 @@
 .dial-meter button {
     margin-top: 1em;
-    display: inline-block;
+    display: block;
     padding: 1rem 2rem;
     text-decoration: none;
     background: url(playBtn.ce805501.svg) no-repeat 0 0;

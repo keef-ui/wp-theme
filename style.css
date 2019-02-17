@@ -469,7 +469,7 @@ input#lessText:checked ~ #layout #main.articles .content-text {display: none;}
     transition: 0.3s;
     
 }
-#app button, button:focus {
+#app button, button:focus , .app button{
     margin-left: 0.5em;
 }
 /* Displaye these in the future  */
