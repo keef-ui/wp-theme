@@ -11,7 +11,15 @@
 ?>
 
 
-<article id="post-<?php the_ID(); ?>" class="<?php echo get_post_meta($post->ID, "css-class", true)?>" >
+<article id="post-<?php the_ID(); ?>" class="<?php
+
+global $wp;
+$current_slug = add_query_arg( array(), $wp->request );
+if($current_slug==''){
+ echo get_post_meta($post->ID, "css-class", true);
+}
+
+?>" >
 	<?php
 		// Post thumbnail.
 		twentyfifteen_post_thumbnail();
