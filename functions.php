@@ -404,6 +404,11 @@ function twentyfifteen_widget_tag_cloud_args( $args ) {
 }
 add_filter( 'widget_tag_cloud_args', 'twentyfifteen_widget_tag_cloud_args' );
 
+function remove_more_link_scroll( $link ) {
+	$link = preg_replace( '|#more-[0-9]+|', '', $link );
+	return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' );
 
 /**
  * Implement the Custom Header feature.

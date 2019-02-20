@@ -47,7 +47,7 @@ if($current_slug==''){
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				__( 'Continue reading %s', 'twentyfifteen' ),
+				__( 'Read more...', 'twentyfifteen' ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 			) );
 
